@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Create Depot</title>
+    <title>Driver Location</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="{% static 'css/slick.css' %}" />
     <!-- style CSS -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
-<title>Kartavya</title>
+<title>Team 8</title>
     <script src="{% static 'js/jquery-1.12.1.min.js'%}"></script>
     <!-- popper js -->
     <script src="{% static 'js/popper.min.js'%}"></script>
@@ -52,7 +52,7 @@
             <nav class="navbar navbar-expand-lg navbar-light">
               <a class="navbar-brand" style="color: WHITE !important;" href="http://127.0.0.1:8000/">
 {#                <img src="{% static 'img/logo.png'%}" alt="logo" />#}
-                  Kartavya
+                  Team 8
               </a>
               <button
                 class="navbar-toggler"
@@ -97,14 +97,14 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href='{% url 'create_driver' %}'>Add Driver</a>
                       <a class="dropdown-item" href='{% url 'create_bin' %}'>Add Bin</a>
-                      <a class="dropdown-item" href='{% url 'create_depot' %}'>Add Depot</a>
-                      <a class="dropdown-item" href='{% url 'create_dump' %}'>Add Dumping Ground</a>
+                      <a class="dropdown-item" href='{% url 'create_depot' %}'>add driver location</a>
+                      <a class="dropdown-item" href='{% url 'create_dump' %}'>industry registration</a>
                       <a class="dropdown-item" href='{% url 'vehicles' %}'>Add Vehicle</a>
                     </div>
                   </li>
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <a class="nav-link" href='{% url 'check' %}'>View Data</a>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
 
@@ -118,7 +118,7 @@
         <div class="row align-items-center">
           <div class="col-lg-6 offset-lg-1" style="position: relative;top: 90px">
 
-<H2>Create Depot</H2>
+<H2>Driver Location</H2>
 <form action="/post_create_depot/" method="post">
     {% csrf_token %}
     <h5>Latitude :</h5>

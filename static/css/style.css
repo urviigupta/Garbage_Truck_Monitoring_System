@@ -2345,7 +2345,7 @@ ul {
 
 /**************** banner part css start ****************/
 /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_banner.scss */
-.banner_part {
+/* .banner_part {
   height: 800px;
   position: relative;
   overflow: hidden;
@@ -2354,7 +2354,7 @@ ul {
   background-size: content;
   background-position: center;
   z-index: 1;
-}
+} */
 
 /* line 11, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_banner.scss */
 .banner_part:after {
