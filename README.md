@@ -6,7 +6,7 @@ To run the project, first clone the repo or download the zip and execute the fol
 Then, to run the Django project, simply execute
 > python manage.py runsever
 
-Garbage Truck Monitoring System is a role based system having three roles admin, driver and a citizen. Admin has a dashboard from which admin can add resources such as drivers, bins, depot, dumping ground and vehicles. Admin will have facility of viewing the current data in the system and monitor the drivers in real time. 
+Organic Waste Monitoring System is a role based system having three roles admin, driver and a citizen. Admin has a dashboard from which admin can add resources such as drivers, bins, depot, dumping ground and vehicles. Admin will have facility of viewing the current data in the system and monitor the drivers in real time. 
 
 ![Alt text](screenshots/dashboard.jpeg?raw=true "Dashboard")
 
